@@ -1,12 +1,13 @@
 Name: Olivia McNulty
 Computing ID: ocm5uu
-Link: https://leetcode.com/problems/add-strings/
+Link: https://leetcode.com/problems/relative-sort-array/
 
-Description:
-Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.
 
-Note:
-The length of both num1 and num2 is < 5100.
-Both num1 and num2 contains only digits 0-9.
-Both num1 and num2 does not contain any leading zero.
-You must not use any built-in BigInteger library or convert the inputs to integer directly.
+Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2.  Elements that don't appear in arr2 should be placed at the end of arr1 in ascending order.
+
+Constraints:
+1 <= arr1.length, arr2.length <= 1000
+0 <= arr1[i], arr2[i] <= 1000
+All the elements of arr2 are distinct.
+Each arr2[i] is in arr1.
